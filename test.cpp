@@ -2,7 +2,7 @@
 #include <boost/algorithm/string/split.hpp>
 
 // Boost.Test does not play well with -Weffc++
-#pragma GCC diagnostic push
+
 
 #include <boost/test/unit_test.hpp>
 
@@ -25,4 +25,4 @@ BOOST_AUTO_TEST_CASE(test)
 
 }
 
-#pragma GCC diagnostic pop
+
