@@ -1,6 +1,6 @@
 language: cpp
-compiler: gcc
 dist: bionic
+compiler: gcc
 
 install: 
   - sudo apt update -qq
@@ -9,5 +9,5 @@ install:
 
 script: 
   - qmake
-  - make
+  - make --silent
   - ./boost_algorithm_split_ubsan_warning
